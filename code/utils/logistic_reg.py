@@ -1,3 +1,12 @@
+"""
+Purpose:
+-----------------------------------------------------------------------------------
+We try to capture the significance of gain and loss amount condition for each subjects.
+We fit the logistic regression line based on their responses on the experiment. The slope 
+of the fitted line illustrates the subject's sensitivity on either gain or loss amount. 
+-----------------------------------------------------------------------------------
+"""
+
 import pandas as pd
 import statsmodels.api as sm
 import pylab as pl

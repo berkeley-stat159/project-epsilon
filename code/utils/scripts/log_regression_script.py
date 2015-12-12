@@ -14,7 +14,6 @@ import sys, os
 #TODO : later change this
 sys.path.append(os.path.join(os.path.dirname(__file__), "../"))
 import numpy as np
-import numpy as np
 import matplotlib.pyplot as plt
 import nibabel as nib
 from logistic_reg import *
@@ -35,7 +34,6 @@ project_path = '../../../'
 data_path = project_path+'data/ds005/'
 subject_list = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16']
 
-images_paths = ['ds005_sub' + s.zfill(3) +'_log_reg_behav' for s in subject_list]
 
 fig = plt.figure()
 for i,subject in enumerate(subject_list):
